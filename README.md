@@ -1,4 +1,4 @@
-#idea:
+idea:
     phase 1:VAE-BAYES
     1.use unlabeled peptide to train a WAE in order to gain an unbiased generalised WAE(for antimicrobial peptide)
     2.use labeled peptide sequence to train a classifier on latent space, namely use encoder to map labeled peptide sequences to a list of z(zs) on latent space. and use zs to train a classifier(maybe Naive Bayes,no specific idea)
